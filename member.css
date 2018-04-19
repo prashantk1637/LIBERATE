@@ -1,0 +1,120 @@
+body{
+margin:0;
+padding:0;
+background:silver;
+}
+#header{
+height:100px;
+width:100%;
+background:yellow;
+float:left;
+}
+#header #logo{
+	width:20%;
+	height:100%;
+	background:#A3E4D7;
+	float:left;
+}
+img{
+	width:100%;
+	height:100%;
+}
+#header #banner{
+	width:80%;
+	height:100%;
+	float:left;
+}
+#nav{
+min-height:40px;
+width:100%;
+background:#2471A3;
+padding-bottom:10px;
+float:left;
+}
+.nav-item{
+list-style:none;
+float:left;
+margin-left:8%;
+}
+.nav-item a{
+	
+	color:white;
+}
+.nav-item a:hover{
+	color:pink
+}
+#container{
+	
+	width:100%;
+	height:520px;
+	background:white;
+	float:left;
+}
+#left{
+width:20%;
+background:white;
+float:left;
+min-height:520px;
+}
+.panel{
+list-style:none;
+height:40px;
+padding:5px;
+width:80%;
+border-bottom:groove;
+text-align:center;
+
+}
+a{
+text-decoration:none;
+font-size:20px;
+}
+#right{
+width:80%;
+background:#76D7C4;
+float:left;
+min-height:520px;
+}
+#newuser{
+		width:60%;
+		height:60%;
+		background:orange;
+		margin-left:17%;
+		margin-top:14%;
+		margin-bottom:20%;
+		margin-right:17%;
+		padding:2%;
+		position:absolute;
+		 z-index: 5;
+		 box-shadow: 6px 6px 0px;
+		 border-radius: 5px;
+}
+.cross{
+margin-left:98%;
+color:red;
+width: 30px;
+height: 30px;
+}
+
+.btn{
+height:30px;
+width:100px;
+border-radius: 3px;
+cursor:pointer;
+border: 2px solid silver;
+background:green;
+}
+.field{
+width:40%;
+height:30px;
+border-radius:5px;
+border: 1px solid green;
+padding-left: 2px;
+}
+#footer{
+	
+	width:100%;
+	height:100px;
+	background:black;
+	float:left;
+}

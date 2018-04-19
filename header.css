@@ -1,0 +1,47 @@
+body{
+margin:0;
+padding:0;
+background:silver;
+}
+#header{
+height:100px;
+width:100%;
+background:yellow;
+float:left;
+}
+#header #logo{
+	width:20%;
+	height:100%;
+	background:#A3E4D7;
+	float:left;
+}
+img{
+	width:100%;
+	height:100%;
+}
+#header #banner{
+	width:80%;
+	height:100%;
+	float:left;
+}
+#nav{
+min-height:40px;
+width:100%;
+background:#2471A3;
+padding-bottom:10px;
+float:left;
+}
+.nav-item{
+list-style:none;
+float:left;
+margin-left:8%;
+}
+.nav-item a{
+	
+	color:white;
+	text-decoration:none;
+}
+.nav-item a:hover{
+	color:pink;
+
+}

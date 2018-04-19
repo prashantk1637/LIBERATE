@@ -1,0 +1,139 @@
+body{
+margin:0;
+padding:0;
+background:silver;
+}
+#header{
+height:130px;
+width:100%;
+background:yellow;
+float:left;
+}
+#header #logo{
+	width:20%;
+	height:130px;
+	background:#A3E4D7;
+	float:left;
+}
+img{
+	width:100%;
+	height:100%;
+}
+#header #banner{
+	width:80%;
+	height:130px;
+	float:left;
+}
+#nav{
+min-height:40px;
+width:100%;
+background:#2471A3;
+float:left;
+padding-bottom:7px;
+innerborder:1px solid white
+
+}
+#nav ul li{
+list-style:none;
+float:left;
+width:15%;
+text-align:center;
+}
+#nav ul li a{
+	color:white;
+	font-size:17px;
+}
+#nav ul li a:hover{
+	color:pink;
+	font-size:18px;
+	
+}
+#container{
+	
+	width:100%;
+	min-height:500px;
+	background:white;
+	float:left;
+}
+#left{
+width:20%;
+background:white;
+float:left;
+min-height:500px;
+}
+#login{
+	
+	padding-top:40px;
+	border-bottom:groove;
+	background:silver;
+}
+#login form table tr td{
+	
+}
+
+.btn{
+height:30px;
+width:100px;
+border-radius: 3px;
+cursor:pointer;
+border: 2px solid white;
+background: green;
+}
+.field{
+width:130%;
+height:30px;
+border-radius:5px;
+border: 1px solid green;
+}
+
+#notice-board{
+	width:100%;
+
+	
+	
+}
+#notice-board-header{
+	width:80%;
+	margin-top:50px;
+	margin-left:10%;
+	border-bottom:groove;
+	border-top:groove;
+	height:25px;
+	text-align:center;
+	padding-top:10px;
+	background:skyblue;
+}
+
+#notice-content{
+	padding-left:15px;
+}
+
+
+
+#right{
+width:80%;
+background:#76D7C4;
+float:left;
+min-height:500px;
+}
+a{
+text-decoration:none;
+font-size:20px;
+}
+.cross{
+margin-left:98%;
+color:red;
+}
+.backg{
+background:white;
+margin-left:10%;
+margin-top:5%;
+padding:20px;
+border-radius:20px;
+width:60%;;
+}
+#stdSearch
+{	display:none;
+	
+}
+
